@@ -1,0 +1,38 @@
+[
+  {
+    "inputs": [],
+    "stateMutability": "nonpayable",
+    "type": "constructor"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      { "indexed": true, "internalType": "uint256", "name": "height", "type": "uint256" },
+      { "indexed": false, "internalType": "bytes", "name": "extraNonce", "type": "bytes" },
+      { "indexed": false, "internalType": "bool", "name": "isConforming", "type": "bool" },
+      { "indexed": false, "internalType": "bool", "name": "isBoundaryAnomaly", "type": "bool" }
+    ],
+    "name": "BlockVerified",
+    "type": "event"
+  },
+  {
+    "inputs": [{ "internalType": "uint256", "name": "height", "type": "uint256" }],
+    "name": "checkBoundaryAnomaly",
+    "outputs": [{ "internalType": "bool", "name": "", "type": "bool" }],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      { "internalType": "uint256", "name": "height", "type": "uint256" },
+      { "internalType": "bytes", "name": "extraNonce", "type": "bytes" }
+    ],
+    "name": "verifyBlockConformance",
+    "outputs": [
+      { "internalType": "bool", "name": "isConforming", "type": "bool" },
+      { "internalType": "bool", "name": "isBoundaryAnomaly", "type": "bool" }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

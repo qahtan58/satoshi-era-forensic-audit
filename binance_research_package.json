@@ -1,0 +1,929 @@
+{
+    "project_metadata": {
+        "title": "Satoshi Era ExtraNonce Protocol v1.4 Forensic Audit & Attribution Suite",
+        "author": "Qahtan Al-Oud",
+        "role": "Strategic Cybersecurity Consultant & Security Researcher",
+        "audit_status": "VALIDATED / PASS (Attempt 03)",
+        "scope": "Bitcoin Mainnet Blocks 1 to 10,000",
+        "protocol_reference": "Protocol v1.4 Frozen (Commit: 52f914d5ffe90d...)"
+    },
+    "audit_metrics": {
+        "total_blocks": 10000,
+        "conforming_blocks": 9922,
+        "non_conforming_boundary_cases": 78,
+        "execution_errors": 0
+    },
+    "attribution_layer": {
+        "total_cases": 78,
+        "cases": [
+            {
+                "height": 128,
+                "v_obs_hex": "00000080",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00000080",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 256,
+                "v_obs_hex": "00000100",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00000100",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 384,
+                "v_obs_hex": "00000180",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00000180",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 512,
+                "v_obs_hex": "00000200",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00000200",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 640,
+                "v_obs_hex": "00000280",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00000280",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 768,
+                "v_obs_hex": "00000300",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00000300",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 896,
+                "v_obs_hex": "00000380",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00000380",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 1024,
+                "v_obs_hex": "00000400",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00000400",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 1152,
+                "v_obs_hex": "00000480",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00000480",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 1280,
+                "v_obs_hex": "00000500",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00000500",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 1408,
+                "v_obs_hex": "00000580",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00000580",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 1536,
+                "v_obs_hex": "00000600",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00000600",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 1664,
+                "v_obs_hex": "00000680",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00000680",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 1792,
+                "v_obs_hex": "00000700",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00000700",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 1920,
+                "v_obs_hex": "00000780",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00000780",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 2048,
+                "v_obs_hex": "00000800",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00000800",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 2176,
+                "v_obs_hex": "00000880",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00000880",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 2304,
+                "v_obs_hex": "00000900",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00000900",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 2432,
+                "v_obs_hex": "00000980",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00000980",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 2560,
+                "v_obs_hex": "00000a00",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00000a00",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 2688,
+                "v_obs_hex": "00000a80",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00000a80",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 2816,
+                "v_obs_hex": "00000b00",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00000b00",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 2944,
+                "v_obs_hex": "00000b80",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00000b80",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 3072,
+                "v_obs_hex": "00000c00",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00000c00",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 3200,
+                "v_obs_hex": "00000c80",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00000c80",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 3328,
+                "v_obs_hex": "00000d00",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00000d00",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 3456,
+                "v_obs_hex": "00000d80",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00000d80",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 3584,
+                "v_obs_hex": "00000e00",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00000e00",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 3712,
+                "v_obs_hex": "00000e80",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00000e80",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 3840,
+                "v_obs_hex": "00000f00",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00000f00",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 3968,
+                "v_obs_hex": "00000f80",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00000f80",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 4096,
+                "v_obs_hex": "00001000",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00001000",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 4224,
+                "v_obs_hex": "00001080",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00001080",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 4352,
+                "v_obs_hex": "00001100",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00001100",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 4480,
+                "v_obs_hex": "00001180",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00001180",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 4608,
+                "v_obs_hex": "00001200",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00001200",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 4736,
+                "v_obs_hex": "00001280",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00001280",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 4864,
+                "v_obs_hex": "00001300",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00001300",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 4992,
+                "v_obs_hex": "00001380",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00001380",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 5120,
+                "v_obs_hex": "00001400",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00001400",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 5248,
+                "v_obs_hex": "00001480",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00001480",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 5376,
+                "v_obs_hex": "00001500",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00001500",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 5504,
+                "v_obs_hex": "00001580",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00001580",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 5632,
+                "v_obs_hex": "00001600",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00001600",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 5760,
+                "v_obs_hex": "00001680",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00001680",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 5888,
+                "v_obs_hex": "00001700",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00001700",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 6016,
+                "v_obs_hex": "00001780",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00001780",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 6144,
+                "v_obs_hex": "00001800",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00001800",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 6272,
+                "v_obs_hex": "00001880",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00001880",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 6400,
+                "v_obs_hex": "00001900",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00001900",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 6528,
+                "v_obs_hex": "00001980",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00001980",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 6656,
+                "v_obs_hex": "00001a00",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00001a00",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 6784,
+                "v_obs_hex": "00001a80",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00001a80",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 6912,
+                "v_obs_hex": "00001b00",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00001b00",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 7040,
+                "v_obs_hex": "00001b80",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00001b80",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 7168,
+                "v_obs_hex": "00001c00",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00001c00",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 7296,
+                "v_obs_hex": "00001c80",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00001c80",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 7424,
+                "v_obs_hex": "00001d00",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00001d00",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 7552,
+                "v_obs_hex": "00001d80",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00001d80",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 7680,
+                "v_obs_hex": "00001e00",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00001e00",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 7808,
+                "v_obs_hex": "00001e80",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00001e80",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 7936,
+                "v_obs_hex": "00001f00",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00001f00",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 8064,
+                "v_obs_hex": "00001f80",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00001f80",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 8192,
+                "v_obs_hex": "00002000",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00002000",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 8320,
+                "v_obs_hex": "00002080",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00002080",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 8448,
+                "v_obs_hex": "00002100",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00002100",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 8576,
+                "v_obs_hex": "00002180",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00002180",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 8704,
+                "v_obs_hex": "00002200",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00002200",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 8832,
+                "v_obs_hex": "00002280",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00002280",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 8960,
+                "v_obs_hex": "00002300",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00002300",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 9088,
+                "v_obs_hex": "00002380",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00002380",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 9216,
+                "v_obs_hex": "00002400",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00002400",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 9344,
+                "v_obs_hex": "00002480",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00002480",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 9472,
+                "v_obs_hex": "00002500",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00002500",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 9600,
+                "v_obs_hex": "00002580",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00002580",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 9728,
+                "v_obs_hex": "00002600",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00002600",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 9856,
+                "v_obs_hex": "00002680",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00002680",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            },
+            {
+                "height": 9984,
+                "v_obs_hex": "00002700",
+                "protocol_status": "NON_CONFORMING_BOUNDARY",
+                "boundary_trigger": "Sign-Bit Shift Shift at 0x00002700",
+                "forensic_classification": "Genesis_Era_Protocol_v1.4_Boundary_Case",
+                "attribution_tags": [
+                    "Satoshi_Era_Pattern",
+                    "CBigNum_Serialization_Shift"
+                ]
+            }
+        ]
+    },
+    "on_chain_verifier_abi": [
+        {
+            "inputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "height",
+                    "type": "uint256"
+                }
+            ],
+            "name": "checkBoundaryAnomaly",
+            "outputs": [
+                {
+                    "internalType": "bool",
+                    "name": "",
+                    "type": "bool"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "height",
+                    "type": "uint256"
+                },
+                {
+                    "internalType": "bytes",
+                    "name": "extraNonce",
+                    "type": "bytes"
+                }
+            ],
+            "name": "verifyBlockConformance",
+            "outputs": [
+                {
+                    "internalType": "bool",
+                    "name": "isConforming",
+                    "type": "bool"
+                },
+                {
+                    "internalType": "bool",
+                    "name": "isBoundaryAnomaly",
+                    "type": "bool"
+                }
+            ],
+            "stateMutability": "nonpayable",
+            "type": "function"
+        }
+    ]
+}
