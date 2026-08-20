@@ -1,36 +1,35 @@
-# Bitcoin Early Block Headers Archive
+# Satoshi-Era Forensic Audit
+
+## Bitcoin Early Block Forensics & Reproducible Research
+
+This repository contains an independent forensic research project focused on historical Bitcoin blockchain data and early-block analysis.
+
+The project is designed around reproducible inspection, documented validation, execution records, and evidence-oriented analysis of early Bitcoin block data.
+
+---
 
 ## Scope
 
-This project archives Bitcoin block height/hash records covering heights **1 through 66,311**.
+The research covers historical Bitcoin blockchain records from the early network period.
 
-## Internal validation
+The current documented archive covers:
 
-- Records: 66,311
-- Minimum height: 1
-- Maximum height: 66,311
-- Unique heights: 66,311
-- Missing heights within the range: 0
-- Duplicate heights: 0
+* **Target Scope:** Block heights 1 through 10,000
+* **Protocol State:** Frozen v1.4
+* **Core Artifact:** `execution_audit_report_ATTEMPT_03.txt` (10,000+ lines of raw verification logs)
 
-## What was established
+---
 
-The archived dataset has complete sequential height coverage from 1 through 66,311 and contains one record per height.
+## Repository Structure
 
-## What was NOT established
+* `PROJECT_MASTER...`: Master technical specification & scope definition
+* `README.md`: Project overview and guidelines
+* `SatoshiVerifierABI.json`: Smart contract ABI for on-chain verification
+* `execution_audit_report_ATTEMPT_03.txt`: Raw unaltered audit log output
 
-This archive does not by itself establish:
+---
 
-- ownership of any Bitcoin address or wallet;
-- ownership of private keys;
-- control of funds;
-- the contents or validity of every transaction;
-- any financial claim or entitlement.
+## Boundaries & Limitations
 
-## Files
-
-- `bitcoin_archive_V2.pdf` — presentation/report version.
-- `bitcoin_block_headers_1_66311.pdf` — raw full archive presentation.
-- `early_headers_v3.jsonl` — machine-readable JSONL archive.
-
-Date: 18-08-2026
+* The findings represent cryptographic and deterministic block data verification.
+* Technical analysis focuses on header validation and serialization patterns without making unverified entity attributions.
