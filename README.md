@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22714906.svg)](https://doi.org/10.5281/zenodo.22714906)
 # Satoshi-Era Forensic Audit
 
 ## Bitcoin Early Block Forensics & Reproducible Research
